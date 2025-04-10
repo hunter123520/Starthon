@@ -1,0 +1,171 @@
+/* * {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+} */
+
+.collapse {
+  visibility: unset !important;
+}
+
+
+.bar{
+  background-color: transparent;
+  height: 100%;
+  width: 250px !important;
+  position: absolute !important;
+  padding: 15px;
+  gap: 15px;
+}
+
+.element{
+  background-color: transparent;
+  height: 50px;
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.logo {
+  /* width: 150px;
+    height: 150px; */
+  width: 75%;
+  height: 75%;
+  width: 80px;
+  height: 80px;
+
+  z-index: 10;
+}
+
+.navbar-brand {
+  z-index: 10;
+  color: #06272e54;
+}
+
+.TTlilte {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.WhiteMode .inactive {
+  color: white !important;
+}
+
+.WhiteMode .active, .WhiteMode .activatedLINK {
+  color: #8be4f0 !important;
+}
+
+.navbar {
+  padding: 0;
+  color: #666666;
+  /* color: #178A9F; */
+  background-color: transparent !important;
+  height: 100px;
+  text-align: center;
+}
+
+.active, .activatedLINK {
+  color: #116a7b !important;
+  font-weight: 600;
+  z-index: 10;
+}
+
+.inactive {
+  color: #666666 !important;
+  font-weight: var(--bs-nav-link-font-weight) !important;
+  z-index: 10;
+}
+
+.link_page {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.2rem;
+  z-index: 10;
+}
+
+.nav-link {
+  color: #666666;
+  font-size: 1.5em;
+  z-index: 10;
+}
+
+.shape {
+  width: 100px;
+  height: 100%;
+  z-index: 5;
+}
+
+.shape_rec {
+  position: relative;
+  width: 100px;
+  height: 134px;
+  height: 100%;
+  z-index: 5;
+}
+
+.first {
+  position: absolute;
+  top: 10;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  background: #116a7b;
+  z-index: 5;
+}
+
+.second {
+  clip-path: polygon(100% 0, 30% 0, 100% 70%);
+  background: #178a9f;
+  z-index: 5;
+}
+
+.third {
+  position: absolute;
+  top: 0px;
+  clip-path: polygon(100% 0, 60% 0, 100% 40%);
+  background: #22b4d0;
+  z-index: 5;
+}
+
+@media (max-width: 770px) {
+  .shape {
+    display: none !important;
+  }
+  .navbar {
+    padding: 0;
+    color: #666666;
+    /* color: #178A9F; */
+    background-color: #f5f5ff !important;
+    height: unset;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #7cb5c0;
+  outline: 1px solid #116a7b;
+  /* outline-style: dashed; */
+}
+
+
+
+
+
+

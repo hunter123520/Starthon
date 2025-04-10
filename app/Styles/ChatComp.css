@@ -1,0 +1,78 @@
+.Buttonqsd{
+    padding-top: 15px;
+    /* width: 250px; */
+}
+.BJOSS{
+    width: 80%;
+}
+.SendMessageContainer{
+    max-width: none;
+    padding-left: 16px;
+    padding-top: 16px;
+    flex-basis: 66.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    width: 100%;
+    margin: 0px;
+}
+.ChatImageHolder{
+    box-sizing: border-box;
+    margin: 0px;
+    flex-direction: row;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.SendContentHolder{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 15px 2px 15px 15px;
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+}
+.ReceiverMessageContainer{
+    padding-left: 16px;
+    padding-top: 16px;
+    max-width: none;
+    flex-basis: 66.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    margin: 0px;
+}
+.ReceiverContentHolder{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 2px 15px 15px;
+    max-width: 66.6667%;
+    flex-basis: 66.6667%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+}

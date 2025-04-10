@@ -1,0 +1,39 @@
+
+
+.imgup{
+    width: 150px;
+}
+
+.btncont .btn{
+    width: 50%;
+}
+
+.UploaderV1 {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: transparent;
+    border: 1px dashed var(--gray);
+    border-radius: 4px;
+    align-items: center;
+    gap: 15px;
+}
+
+.UploaderV1:hover {
+    background-color: var(--sky);
+    border: 1px solid var(--blue);
+    border-radius: 4px;
+}
+
+.Error {
+    border: 1px dashed var(--red);
+}
+
+.Success {
+    border: 1px dashed green;
+}
+
+
+
+
+
+

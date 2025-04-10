@@ -1,0 +1,14 @@
+.mainTitle{
+    /* font-family: "Oswald", sans-serif !important; */
+    font-family: "Merriweather", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4vw;
+}
+.squeeze{
+    margin-top: -25px;
+}
+.main{
+    color:var(--main);
+}

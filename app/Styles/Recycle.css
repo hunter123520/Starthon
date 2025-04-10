@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Barriecito&display=swap");
+.titlec{
+    text-align: center !important;
+}
+
+.rescov {
+    --s: 200px; /* the image size */
+    
+    /* width: var(--s);
+    height: var(--s); better than aspect-ratio in case the image has a height attribute */
+    /* box-sizing: border-box; */
+    top: -75px !important;
+    width: 100%;
+    transition: 1s;
+    /* cursor: pointer; */
+    background: #542437;
+    margin-left:400px;
+    /* object-fit: cover; */
+    animation: ani forwards 5s;
+  }
+  /* img:hover {
+    padding: 0;
+  } */
+  @keyframes ani {
+    from{
+        margin-left:400px;
+    }
+    to {
+        margin-left: 0;
+    }
+  }
+
+@keyframes scribble {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  div#stripped {
+    position: relative;
+     top: -50px;
+     /* left: 50px; */
+     /* transform: rotateZ(-35deg); */
+     z-index: -555;
+     width: 600px;
+    max-width: 750px;
+    margin: 0 auto;
+    background: #81b93a;
+    /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/olga.jpg); */
+    background-size: cover;
+    font-size: 0;
+  }
+  div#stripped svg {
+    background: #81b93a;
+    mix-blend-mode: darken;
+  }
+  
+  div#stripped svg polyline {
+    fill: none;
+    stroke: white;
+    stroke-width: 200;
+    stroke-dasharray: 20000;
+    stroke-dashoffset: 20000;
+    animation: scribble 3s linear forwards;
+  }
+  @media 
+  (-webkit-min-device-pixel-ratio: 2), 
+  (min-resolution: 192dpi) { 
+    div#stripped {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/olga-2x.jpg);
+    }
+  }
+
+
+
+
+  .crsv{
+    --u: 1.5vmin;
+	--c1: #9dee33;
+	--c2: #90d437;
+	--c3: #87c13b;
+	--c4: #81b93a;
+	--c5: #5f911d;
+	--gp: 50%/calc(var(--u) * 10) calc(var(--u) * 17.67);
+	/* height: 100vh; */
+    width: 100vw !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+	background: 
+		conic-gradient(from 90deg at 99% 67%, var(--c5) 0 90deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from 180deg at 1% 67%, var(--c5) 0 90deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from 0deg at 99% 33%, var(--c5) 0 90deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from -90deg at 1% 33%, var(--c5) 0 90deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from -60deg at 50% 15.5%, var(--c3) 0 120deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from -60deg at 50% 16.75%, var(--c5) 0 120deg, #fff0 0 360deg) var(--gp), 
+		conic-gradient(from 120deg at 50% 83.25%, var(--c5) 0 120deg, #fff0 0 360deg) var(--gp), 
+		linear-gradient(32deg, #fff0 0 49.5%, var(--c5) 0 50.5%, #fff0 0 100%) var(--gp),
+		linear-gradient(-32deg, #fff0 0 49.5%, var(--c5) 0 50.5%, #fff0 0 100%) var(--gp),
+		linear-gradient(-90deg, #fff0 0 49%, var(--c5) 0 51%, #fff0 0 100%) var(--gp),
+		linear-gradient(60.5deg, #fff0 0 49.5%, var(--c5) 0 50.5%, #fff0 0 100%) var(--gp),
+		linear-gradient(-60.5deg, #fff0 0 49.5%, var(--c5) 0 50.5%, #fff0 0 100%) var(--gp),
+		conic-gradient(from -90deg at 50% 50%, var(--c5) 0 32deg, var(--c3) 0 60.5deg, var(--c4) 0 90deg, var(--c5) 0 119.5deg, var(--c1) 0 148deg, var(--c5) 0 180deg, #fff0 0 360deg) var(--gp),
+		conic-gradient(from 90deg at 50% 50%, var(--c2) 0 32deg, var(--c4) 0 60.5deg, var(--c3) 0 90deg, var(--c1) 0 119.5deg, var(--c5) 0 148deg, var(--c2) 0 180deg,  #fff0 0 360deg) var(--gp);
+	background-color: var(--c5);
+  }
+ 
+
+  h1 {
+    
+    text-align: center;
+    font-family: "Barriecito" !important;
+	color: black;
+	font-size: 30px !important;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.58);
+	text-transform: uppercase;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	padding: 10px;
+	
+	@media only screen and (min-width: 768px) {
+		font-size: 40px;
+		padding: 10px 20px;	
+	}
+	
+	@media only screen and (min-width: 992px) {
+		font-size: 50px;
+	}
+	
+	@media only screen and (min-width: 1170px) {
+		font-size: 72px;
+	}
+	
+}
+
+.effect-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	height: 100vh;
+}
+
+.effect-block span{
+
+		opacity: 0;
+		animation: text-visible 0.0001s linear forwards;
+		animation-delay: 1.5s;
+
+
+}
+.effect-block span:after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background:  #f9ff57;
+    animation: effect-block 2s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+    animation-delay: 1s;
+}
+
+#another {
+	top: 30px;
+	
+	@media only screen and (min-width: 992px) {
+		left: 100px;
+	}
+
+	span {
+		animation-delay: 2s;
+	}
+
+}
+.effect-block#another span:after {
+    background: #9933ab;
+    animation-delay: 1.4s;
+}
+
+@keyframes effect-block {
+	0% {
+		left: 0;
+		width: 0%;
+	}
+	50% {
+		left: 0;
+		width: 100%;
+	}
+	100% {
+		left: 100%;
+		width: 0%;
+	}
+}
+
+@keyframes text-visible {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

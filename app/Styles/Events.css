@@ -1,0 +1,8 @@
+.wide-modal .modal-dialog {
+    max-width: 100% !important;
+    width: 100% !important;
+    max-width:90% !important
+  }
+  .modal-dialog{
+    max-width: 90vw !important;
+  }

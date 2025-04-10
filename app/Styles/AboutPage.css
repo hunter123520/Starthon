@@ -1,0 +1,174 @@
+/* * {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+} */
+/* .About-Card{
+
+} */
+
+.intro-title-A.lighter {
+  font-weight: 400 !important;
+}
+
+.intro-title-A {
+  padding-left: 0.5em;
+}
+
+.Panle {
+  box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.171);
+}
+
+.Goals {
+  background-color: #f9fafe;
+}
+.ShareKnowledge{
+  background-color: white;
+}
+
+.intro-title-A,
+.objective-title,
+.team-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 800 !important;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "roboto_semi" !important; */
+  font-size: 4rem;
+  /* font-weight: 300; */
+  color: #116a7b;
+  color: #262626;
+  line-height: 125%;
+  /* padding-left: 0.5em; */
+}
+
+.con-main {
+  background-color: #83c5be !important;
+}
+
+.objshape {
+  /* position: absolute; */
+  width: 40px;
+  height: 40px;
+  /* margin-top: -45px; */
+  /* z-index: -1; */
+  background-color: #116a7b;
+  clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 50% 100%, 0% 38%);
+  clip-path: polygon(0 0, 50% 0, 100% 50%, 50% 100%, 0 100%, 25% 50%);
+  margin-right: 10px;
+}
+
+.objcont {
+  text-align: left;
+  width: 50%;
+  padding: 0.5em;
+  padding-left: 4vw;
+  /* height: 50px; */
+}
+
+.objtitle {
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+}
+
+.objdesc {
+  font-size: 15px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.mmbcont {
+  width: 20%;
+}
+
+.abholder {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.abcont {
+  background-color: #ffff;
+}
+
+.abtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 800 !important;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "roboto_semi" !important; */
+  font-size: 2rem;
+  /* font-weight: 300; */
+  color: #116a7b;
+  color: #262626;
+  line-height: 125%;
+  width: 75%;
+  text-align: start;
+}
+
+.abdesc {
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased;
+  color: #666666;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-size: 0.9rem;
+  width: 75%;
+  text-align: justify;
+  font-weight: 400;
+}
+@media (max-width: 770px) {
+.About-Card{
+height: 390px;
+margin-top: -150px;
+}
+}
+@media (max-width: 650px) {
+  .About-Card{
+  height: 400px;
+  margin-top: -170px;
+  z-index: 0 !important;
+  }
+  .navbar-toggler.collapsed{
+    z-index: 100 !important;
+    background-color: white;
+    opacity: 0.5;
+  }
+  }
+@media (max-width: 1000px) {
+  .intro-container {
+    margin-top: 25px;
+  }
+  .intro-img {
+    display: none;
+  }
+  .mmbcont {
+    width: 50%;
+  }
+  .intro-title-A {
+    padding-left: 0;
+  }
+  .intro-content {
+    text-align: center;
+  }
+  .abholder {
+    column-count: 1;
+  }
+  .abdesc {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 450px) {
+  .objcont {
+    width: 100%;
+  }
+  .abtitle {
+    text-align: center;
+    width: 100%;
+  }
+  .abdesc {
+    width: 100%;
+  }
+}

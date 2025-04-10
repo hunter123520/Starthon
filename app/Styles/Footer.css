@@ -1,0 +1,124 @@
+/* * {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+} */
+
+.footer-container {
+    width: 100%;
+    height: 225px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left {
+    width: 80%;
+    position: relative;
+}
+
+.footer_list {
+    position: absolute;
+    width: 60%;
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #116A7B;
+    padding: 1em;
+    top: -45px;
+    margin-left: 2em;
+}
+
+.footer_link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.copy-rights-container {
+    width: 100%;
+    font-size: 0.9rem;
+    background-color: #0B3841;
+    color: #FFFFFF;
+    height: 76px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.copy-rights {
+    margin-left: 3em;
+}
+
+.right {
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+.first-pol {
+    background-color: #22BFDD;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(100% 65%, 70% 100%, 100% 100%);
+}
+
+.second-pol {
+    position: absolute;
+    background-color: #1C98AF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -9;
+    clip-path: polygon(100% 20%, 35% 100%, 100% 100%);
+}
+
+.third-pol {
+    position: absolute;
+    background-color: #116A7B;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -10;
+    clip-path: polygon(52% 40%, 100% 40%, 100% 100%, 0% 100%);
+}
+
+.forth-pol {
+    position: absolute;
+    background-color: #0B3841;
+    width: 100%;
+    height: 76px;
+    top: 149px;
+    z-index: -20;
+}
+
+@media (max-width: 770px) {
+    .right {
+        display: none;
+    }
+    .left {
+        width: 100%;
+    }
+    .footer_list {
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 440px) {
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer_list {
+        min-height: 200px;
+        flex-direction: column;
+    }
+}

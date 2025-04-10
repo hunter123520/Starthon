@@ -1,0 +1,29 @@
+@font-face {
+    font-family: roboto_mono;
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto_light;
+    src: url(../fonts/RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: roboto_bold;
+    src: url(../fonts/RobotoMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto_semi;
+    src: url(../fonts/RobotoMono-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter-semibold;
+    src: url(../fonts/Inter-SemiBold.ttf);
+}

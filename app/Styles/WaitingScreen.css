@@ -1,0 +1,37 @@
+.PopupBackground {
+  /* -webkit-filter: blur(2px);
+    filter: blur(2px); */
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.8); */
+  z-index: 500;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  /* pointer-events: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s all;
+  opacity: 0;
+  visibility: hidden;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+/* .show {
+  display: flex;
+  visibility: visible;
+  transition: 0.4s all;
+  opacity: 1;
+} */
+
+.PopupBackground span {
+  color: white;
+  font-size: 20px;
+}

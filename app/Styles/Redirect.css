@@ -1,0 +1,18 @@
+.ImageContainer img {
+    width: 40vw;
+}
+
+.titleError {
+    color: #116A7B;
+    font-family: roboto_mono;
+    font-size: 3.5vw;
+}
+
+.redirectError {
+    font-family: roboto_light;
+    font-size: 2.5vw;
+}
+
+.errorContainer {
+    margin: 25px 0px;
+}

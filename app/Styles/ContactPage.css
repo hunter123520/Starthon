@@ -1,0 +1,189 @@
+.CPT {
+  background-color: #83c5be !important;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CPT1 {
+  background-color: #a683c5 !important;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.CPTTitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 200 !important;
+  -webkit-font-smoothing: antialiased;
+  /* font-family: "roboto_semi" !important; */
+  font-size: 3.5rem;
+  /* font-weight: 300; */
+  color: #116a7b;
+  color: #262626;
+  color: #116a7b;
+  color: white;
+  line-height: 125%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.CPTdesc {
+  font-weight: 200;
+  font-size: 1.25rem;
+  width: 60%;
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased;
+  color: whitesmoke;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.main-ctp {
+  width: 60%;
+}
+
+.lineSt {
+  width: 50%;
+  border-color: white;
+  border-width: 2px;
+}
+
+@media (max-width: 450px) {
+  .CPTdesc {
+    width: 90%;
+  }
+  .main-ctp {
+    width: 95%;
+  }
+  .path_container{
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 650px) {
+  .TopDownButton{
+    visibility: hidden !important;
+  }
+}
+@media (max-width: 1100px) {
+
+  .dropCont{
+    position: relative !important;
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center!important;
+
+    right:unset!important;
+    top: unset!important;
+    margin-top: 15px;
+  }
+  .dropCont > div{
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+div.path_container{
+  text-align: start!important;
+}
+.dropCont{
+  position: absolute;
+  top: 25px;
+  right:75px;
+}
+.func {
+  color: #172c42;
+  cursor: pointer;
+}
+
+.funcActive {
+  color: #fff !important;
+}
+
+.subfunc {
+  color: rgba(0, 0, 0, 0.457);
+  cursor: pointer;
+}
+
+.subfuncActive {
+  font-weight: bold;
+  color: #15616d;
+}
+
+.subsubfunc {
+ 
+  color: #708d81;
+  cursor: pointer;
+}
+
+.subsubfuncActive {
+  color: #001524 !important;
+}
+
+.Frezed {
+  transition: 0.5s all !important;
+  top: 100px !important;
+}
+
+.TopDownButton.Opened {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.TopDownButton {
+  transition: 0.5s all !important;
+  top: 0;
+  right: 0;
+  position: fixed !important;
+  background-color: white;
+  z-index: 10;
+  visibility: visible;
+}
+
+.TopDownButton:hover ~ .TopDownPanel {
+  transition: 0.1s;
+  visibility: visible;
+  opacity: 1 !important;
+}
+
+.TopDownPanel:hover {
+  transition: 0.1s;
+  visibility: visible;
+  opacity: 1 !important;
+}
+
+.TopDownPanel.Opened {
+  transition: 0.1s;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.TopDownPanel {
+  transition: 0.1s;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  top: 0;
+  right: 0;
+  position: fixed !important;
+}
+
+.CCPut {
+  position: relative;
+  top: 0;
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.CCPut:hover {
+  top: -2px;
+  box-shadow: 2px 4px 16px rgb(0 0 0 / 16%);
+  transition: all 0.3s cubic-bezier(0, 0, 0.5, 1);
+}

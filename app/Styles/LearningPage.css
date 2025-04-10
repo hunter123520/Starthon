@@ -1,0 +1,39 @@
+.ResourcesCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    row-gap: 1em;
+    justify-content: center;
+    padding-top: 2.5em;
+}
+
+.source {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sourceimage {
+    width: 100%;
+    height: 290px;
+    transition: all .3s;
+    box-shadow: none;
+}
+
+.sourceimage:hover {
+    box-shadow: 0 0 11px rgba(6, 76, 88, 0.445);
+    transition: all .3s;
+}
+
+.sourcetitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    width: 90%;
+    line-height: 150%;
+    -webkit-font-smoothing: antialiased;
+    color: #666666;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
