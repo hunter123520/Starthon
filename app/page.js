@@ -13,7 +13,7 @@ import PrecisionManufacturingIcon from '@mui/icons-material/PrecisionManufacturi
 import GroupsIcon from '@mui/icons-material/Groups';
 import CardShow from './Components/CardShow';
 import lbb from "./Images/bb.png";
-import TabsHolder from './Components/TabsHolder';
+// import TabsHolder from './Components/TabsHolder';
 import CustomCard from './Components/CustomCard';
 import event1 from "./Images/event1.jpg";
 import event2 from "./Images/event2.jpg";
