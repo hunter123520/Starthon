@@ -1,0 +1,470 @@
+[
+    {
+      "Student Name": "ليلى محمد",
+      "Feedback": "The first lecture was excellent and very helpful."
+    },
+    {
+      "Student Name": "أحمد علي",
+      "Feedback": "I'm a bit confused about how to apply this theory. Could you provide more examples?"
+    },
+    {
+      "Student Name": "فاطمة حسين",
+      "Feedback": "I had difficulty navigating the website and uploading the assignment. I had to contact support multiple times."
+    },
+    {
+      "Student Name": "يوسف خالد",
+      "Feedback": "I think it would be beneficial to add more practical exercises in the next module."
+    },
+    {
+      "Student Name": "مريم سعيد",
+      "Feedback": "This course seems very similar to the 'Advanced Topics in X' course. What are the key differences and which one is more suitable for someone with my background?"
+    },
+    {
+      "Student Name": "عبدالله إبراهيم",
+      "Feedback": "I really enjoyed the discussions in the forum during the first week. It's great to hear different perspectives."
+    },
+    {
+      "Student Name": "سارة محمود",
+      "Feedback": "The audio quality in some of the video lectures was quite poor, making it hard to follow along."
+    },
+    {
+      "Student Name": "عمر حسن",
+      "Feedback": "I am looking for resources to further explore the topic of machine learning. Are there any related courses or materials you would recommend?"
+    },
+    {
+      "Student Name": "زينب طارق",
+      "Feedback": "I am having trouble accessing the course materials. I have tried logging in multiple times, but it's not working. Can someone help?"
+    },
+    {
+      "Student Name": "علي رضا",
+      "Feedback": "The content was well-structured and easy to understand. I feel like I've gained a solid foundation in this subject."
+    },
+    {
+      "Student Name": "نور الهدى",
+      "Feedback": "The discussion session on Tuesday was very insightful. It helped clarify some of the more complex concepts."
+    },
+    {
+      "Student Name": "محمد أمين",
+      "Feedback": "I was expecting more in-depth coverage of topic Y. I feel like it was glossed over too quickly."
+    },
+    {
+      "Student Name": "آمنة جمال",
+      "Feedback": "Is there a prerequisite course for this one? I find some of the terminology quite unfamiliar."
+    },
+    {
+      "Student Name": "يحيى سمير",
+      "Feedback": "I really appreciated the prompt responses from the teaching assistants to my questions."
+    },
+    {
+      "Student Name": "رقية عادل",
+      "Feedback": "This course is a great introduction to the field. I am now interested in exploring more advanced topics. Are there any follow-up courses available?"
+    },
+    {
+      "Student Name": "إبراهيم خليل",
+      "Feedback": "The event organization was not good. There were many delays."
+    },
+    {
+      "Student Name": "سمية نبيل",
+      "Feedback": "Can you please clarify the difference between method A and method B?"
+    },
+    {
+      "Student Name": "جاسم ماجد",
+      "Feedback": "I think adding case studies would be very helpful."
+    },
+    {
+      "Student Name": "حنان فؤاد",
+      "Feedback": "I couldn't access the recordings for the last session."
+    },
+    {
+      "Student Name": "خالد سليم",
+      "Feedback": "The materials provided were comprehensive and easy to understand."
+    },
+    {
+      "Student Name": "لينا رشيد",
+      "Feedback": "I feel lost in module three. Can you provide an additional summary?"
+    },
+    {
+      "Student Name": "طارق زيد",
+      "Feedback": "The speaker at the seminar was very inspiring."
+    },
+    {
+      "Student Name": "نادية صلاح",
+      "Feedback": "I suggest providing more practical examples related to my field of work."
+    },
+    {
+      "Student Name": "عباس نجم",
+      "Feedback": "Are there any additional recommended reading materials?"
+    },
+    {
+      "Student Name": "هبة وليد",
+      "Feedback": "There were technical issues with the live stream."
+    },
+    {
+      "Student Name": "مصطفى كمال",
+      "Feedback": "I really enjoyed the group activities."
+    },
+    {
+      "Student Name": "ريم عثمان",
+      "Feedback": "I think a comparison between the different tools would be useful."
+    },
+    {
+      "Student Name": "سالم نزار",
+      "Feedback": "There wasn't enough time to ask questions at the end of the session."
+    },
+    {
+      "Student Name": "منى بدر",
+      "Feedback": "Can you please provide more guidance on the final project?"
+    },
+    {
+      "Student Name": "جواد هاشم",
+      "Feedback": "The course was very well organized."
+    },
+    {
+      "Student Name": "ضحى أيمن",
+      "Feedback": "I'm finding it difficult to understand the relationship between concept X and concept Y."
+    },
+    {
+      "Student Name": "باسم فؤاد",
+      "Feedback": "I suggest adding a practice quiz before the final exam."
+    },
+    {
+      "Student Name": "غادة رامي",
+      "Feedback": "My support email hasn't been answered yet."
+    },
+    {
+      "Student Name": "أنس سهيل",
+      "Feedback": "The discussions were lively and interesting."
+    },
+    {
+      "Student Name": "صفاء الدين",
+      "Feedback": "Are there any other resources I can refer to to deepen my understanding?"
+    },
+    {
+      "Student Name": "ليث عدنان",
+      "Feedback": "There were some errors in the displayed slides."
+    },
+    {
+      "Student Name": "نورة جمال",
+      "Feedback": "I feel like I learned a lot in this course."
+    },
+    {
+      "Student Name": "مهند سعيد",
+      "Feedback": "I'm not sure how to start the second assignment."
+    },
+    {
+      "Student Name": "هند ناصر",
+      "Feedback": "I think adding more visual examples would be helpful."
+    },
+    {
+      "Student Name": "عادل كريم",
+      "Feedback": "The interactive session was very valuable."
+    },
+    {
+      "Student Name": "سيرين وليد",
+      "Feedback": "Can you recommend some complementary courses?"
+    },
+    {
+      "Student Name": "رامي حامد",
+      "Feedback": "There were connection issues during the live broadcast."
+    },
+    {
+      "Student Name": "منى يوسف",
+      "Feedback": "The learning materials were logically structured."
+    },
+    {
+      "Student Name": "بلال أحمد",
+      "Feedback": "I need more clarification on the evaluation criteria."
+    },
+    {
+      "Student Name": "إيمان طلال",
+      "Feedback": "I suggest providing a downloadable version of the lectures."
+    },
+    {
+      "Student Name": "جلال مراد",
+      "Feedback": "My technical issue has not been resolved yet."
+    },
+    {
+      "Student Name": "سارة نبيل",
+      "Feedback": "The discussions were very productive."
+    },
+    {
+      "Student Name": "فيصل غازي",
+      "Feedback": "Are there any other forums where we can exchange ideas?"
+    },
+    {
+      "Student Name": "نوال زهير",
+      "Feedback": "The pace of explanation was sometimes too fast."
+    },
+    {
+      "Student Name": "سامر رشيد",
+      "Feedback": "I am satisfied with the course content."
+    },
+    {
+      "Student Name": "هدى مازن",
+      "Feedback": "I am looking for advanced courses in this field."
+    },
+    {
+      "Student Name": "عصام فوزي",
+      "Feedback": "I had difficulty understanding some of the technical terms."
+    },
+    {
+      "Student Name": "ليلى كمال",
+      "Feedback": "The technical support was responsive and helpful."
+    },
+    {
+      "Student Name": "أمين ياسر",
+      "Feedback": "I think adding more self-assessment opportunities would be beneficial."
+    },
+    {
+      "Student Name": "جميلة بدر",
+      "Feedback": "There were some inconsistencies in the information provided."
+    },
+    {
+      "Student Name": "حسن علي",
+      "Feedback": "I enjoyed the variety of learning activities."
+    },
+    {
+      "Student Name": "عبير محمود",
+      "Feedback": "Can you explain how this topic relates to the previous one?"
+    },
+    {
+      "Student Name": "بشار طارق",
+      "Feedback": "I suggest providing additional training materials."
+    },
+    {
+      "Student Name": "رنا زيد",
+      "Feedback": "I couldn't download the attached files."
+    },
+    {
+      "Student Name": "كمال صلاح",
+      "Feedback": "The presentations were clear and well-organized."
+    },
+    {
+      "Student Name": "دينا نجم",
+      "Feedback": "I feel like I need more help with solving the practical problems."
+    },
+    {
+      "Student Name": "فادي وليد",
+      "Feedback": "There were audio issues during the live session."
+    },
+    {
+      "Student Name": "سوزان كمال",
+      "Feedback": "The group discussions were enriching."
+    },
+    {
+      "Student Name": "مازن أمين",
+      "Feedback": "Are there any essential readings we should focus on?"
+    },
+    {
+      "Student Name": "غالية جمال",
+      "Feedback": "I suggest adding more examples from the industry."
+    },
+    {
+      "Student Name": "نزار سهيل",
+      "Feedback": "Some of the links in the learning materials were not updated."
+    },
+    {
+      "Student Name": "ليلى عدنان",
+      "Feedback": "The course was enjoyable and informative."
+    },
+    {
+      "Student Name": "يوسف ناصر",
+      "Feedback": "I'm not sure about the requirements for the short quiz."
+    },
+    {
+      "Student Name": "مريم كريم",
+      "Feedback": "I think providing a template for the project would be helpful."
+    },
+    {
+      "Student Name": "عبدالله فوزي",
+      "Feedback": "I haven't received a response to my inquiry."
+    },
+    {
+      "Student Name": "سارة مازن",
+      "Feedback": "The interactive activities were very engaging."
+    },
+    {
+      "Student Name": "عمر رشيد",
+      "Feedback": "Are there any recommended software or tools for this course?"
+    },
+    {
+      "Student Name": "زينب وليد",
+      "Feedback": "There were some issues with the video playback."
+    },
+    {
+      "Student Name": "علي جمال",
+      "Feedback": "The course material was up-to-date and relevant."
+    },
+    {
+      "Student Name": "نور الهدى سهيل",
+      "Feedback": "I need help understanding the homework assignment."
+    },
+    {
+      "Student Name": "محمد بدر",
+      "Feedback": "I suggest organizing additional Q&A sessions."
+    },
+    {
+      "Student Name": "آمنة طارق",
+      "Feedback": "Some of the files did not load correctly."
+    },
+    {
+      "Student Name": "يحيى زيد",
+      "Feedback": "The lecture was interesting and motivating."
+    },
+    {
+      "Student Name": "رقية صلاح",
+      "Feedback": "Can you provide more details about the practical exam?"
+    },
+    {
+      "Student Name": "إبراهيم نجم",
+      "Feedback": "I think adding grades for participation in discussions would encourage students."
+    },
+    {
+      "Student Name": "سمية وليد",
+      "Feedback": "I couldn't join the live session due to a technical issue."
+    },
+    {
+      "Student Name": "جاسم كمال",
+      "Feedback": "The materials provided were valuable and useful."
+    },
+    {
+      "Student Name": "حنان أمين",
+      "Feedback": "I feel like I need more training on how to use tool X."
+    },
+    {
+      "Student Name": "خالد جمال",
+      "Feedback": "I suggest providing more online resources."
+    },
+    {
+      "Student Name": "لينا سهيل",
+      "Feedback": "My comment in the forum hasn't been replied to."
+    },
+    {
+      "Student Name": "طارق بدر",
+      "Feedback": "The course was excellently structured."
+    },
+    {
+      "Student Name": "نادية طارق",
+      "Feedback": "Can you compare this course to another course in the same field?"
+    },
+    {
+      "Student Name": "عباس زيد",
+      "Feedback": "I think adding more real-world case studies would be beneficial."
+    },
+    {
+      "Student Name": "هبة صلاح",
+      "Feedback": "I encountered a problem logging into the learning management system."
+    },
+    {
+      "Student Name": "مصطفى نجم",
+      "Feedback": "The discussions were lively and engaging."
+    },
+    {
+      "Student Name": "ريم وليد",
+      "Feedback": "I'm not sure if I have the necessary background for this course."
+    },
+    {
+      "Student Name": "سالم كمال",
+      "Feedback": "The instructor's explanations were clear and concise."
+    },
+    {
+      "Student Name": "منى أمين",
+      "Feedback": "Are there any specific learning outcomes for this module?"
+    },
+    {
+      "Student Name": "جواد جمال",
+      "Feedback": "I suggest providing a glossary of terms."
+    },
+    {
+      "Student Name": "ضحى سهيل",
+      "Feedback": "I haven't received feedback on my last submission."
+    },
+    {
+      "Student Name": "باسم بدر",
+      "Feedback": "The collaborative assignments were a great learning experience."
+    },
+    {
+      "Student Name": "غادة طارق",
+      "Feedback": "Are there any recommended readings beyond the textbook?"
+    },
+    {
+      "Student Name": "أنس زيد",
+      "Feedback": "The pace of the course felt a bit rushed."
+    },
+    {
+      "Student Name": "صفاء صلاح",
+      "Feedback": "I found the course content very relevant to my work."
+    },
+    {
+      "Student Name": "ليث نجم",
+      "Feedback": "I'm interested in learning more about the advanced topics covered briefly."
+    },
+    {
+      "Student Name": "نورة وليد",
+      "Feedback": "I had trouble understanding the grading policy."
+    },
+    {
+      "Student Name": "مهند كمال",
+      "Feedback": "The guest speaker provided valuable insights."
+    },
+    {
+      "Student Name": "هند أمين",
+      "Feedback": "I suggest incorporating more interactive quizzes."
+    },
+    {
+      "Student Name": "عادل جمال",
+      "Feedback": "The online platform was user-friendly."
+    },
+    {
+      "Student Name": "سيرين سهيل",
+      "Feedback": "Are there any other courses that build upon this one?"
+    },
+    {
+      "Student Name": "رامي بدر",
+      "Feedback": "The video quality was low in some segments."
+    },
+    {
+      "Student Name": "منى طارق",
+      "Feedback": "The syllabus was clearly outlined."
+    },
+    {
+      "Student Name": "بلال زيد",
+      "Feedback": "I'm not clear on the expectations for the final presentation."
+    },
+    {
+      "Student Name": "إيمان صلاح",
+      "Feedback": "I suggest providing more examples of successful projects."
+    },
+    {
+      "Student Name": "جلال نجم",
+      "Feedback": "My access to the forum is still restricted."
+    },
+    {
+      "Student Name": "سارة وليد",
+      "Feedback": "The feedback on my assignments was helpful."
+    },
+    {
+      "Student Name": "فيصل كمال",
+      "Feedback": "Are there any study groups for this course?"
+    },
+    {
+      "Student Name": "نوال أمين",
+      "Feedback": "The workload for this course is quite heavy."
+    },
+    {
+      "Student Name": "سامر جمال",
+      "Feedback": "I enjoyed the practical application exercises."
+    },
+    {
+      "Student Name": "هدى سهيل",
+      "Feedback": "I'm looking for resources on related methodologies."
+    },
+    {
+      "Student Name": "عصام بدر",
+      "Feedback": "I found some of the concepts quite abstract."
+    },
+    {
+      "Student Name": "ليلى طارق",
+      "Feedback": "The support team resolved my issue quickly."
+    }
+]
