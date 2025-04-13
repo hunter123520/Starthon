@@ -2,7 +2,7 @@ from flask import Flask, send_from_directory,current_app,jsonify,request,render_
 from flask_restful import Api, Resource, reqparse
 from flask_cors import CORS #comment this on deployment
 # from api.main import Chat,Recycle
-from main import Chat,Sentiment
+from api.main import Chat,Sentiment
 import os
 import sys
 
