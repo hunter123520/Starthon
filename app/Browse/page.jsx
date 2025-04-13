@@ -159,7 +159,7 @@ const Browse = () => {
             <span>Your</span>
             <span className='main squeeze'>Recommendation</span>
         </div>
-        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:25,paddingRight:25}}>
+        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:15,paddingRight:15}}>
         {events.slice(0, 8).map((e, i) => {
               return (
                 <SelectiveCard
@@ -189,7 +189,7 @@ const Browse = () => {
             <span>Scientific</span>
             <span className='main squeeze'>Workshops</span>
         </div>
-        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:25,paddingRight:25}}>
+        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:15,paddingRight:15}}>
         {events.slice(0, 8).map((e, i) => {
               return (
                 <SelectiveCard
@@ -218,7 +218,7 @@ const Browse = () => {
             <span>Technical</span>
             <span className='main squeeze'>Events</span>
         </div>
-        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:25,paddingRight:25}}>
+        <div className='d-flex flex-row justify-content-center align-items-center flex-wrap' style={{gap:5,paddingLeft:15,paddingRight:15}}>
         {events.slice(0, 8).map((e, i) => {
               return (
                 <SelectiveCard

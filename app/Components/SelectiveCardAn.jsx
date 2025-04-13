@@ -19,10 +19,10 @@ const SelectiveCardAn = ({
 }) => {
   
   return (
-    <Link href={link==null?"/Browse":(link.length==0?"/Browse":link)} style={{display:"block", maxWidth: 350, width: 350 }}>
+    <Link href={link==null?"/Browse":(link.length==0?"/Browse":link)} style={{display:"block", maxWidth: 350, width: 300,maxHeight:400,height:400  }}>
     <Card
       className="CCPut"
-      sx={{ maxWidth: 350, width: 350 }}
+      sx={{ maxWidth: 350, width: 300,maxHeight:400,height:400 }}
       onClick={onClick}
     >
       <CardActionArea className=" h-100 " href={link != null ? link : "/Browse"}>

@@ -32,7 +32,7 @@ export default function Dashboard() {
   return (
     <div className="flex h-screen">
       <Sidebar activeTab={activeTab} setActiveTab={setActiveTab} tabs={TABS} />
-      <div className="flex-1 p-6 overflow-auto">
+      <div className="flex-1 p-2 overflow-auto">
         {renderTab()}
       </div>
     </div>

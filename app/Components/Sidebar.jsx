@@ -1,6 +1,6 @@
 export default function Sidebar({ activeTab, setActiveTab, tabs }) {
     return (
-      <div className="w-64 bg-gray-800 text-white p-4 space-y-2">
+      <div className="w-55 bg-gray-800 text-white p-4 space-y-2">
         <button
           className={`w-full text-left p-2 rounded ${activeTab === tabs.Events ? 'bg-gray-700' : ''}`}
           onClick={() => setActiveTab(tabs.Events)}

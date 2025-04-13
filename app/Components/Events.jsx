@@ -113,7 +113,7 @@ const getClassColor = (label) => {
 
 
   return (
-    <div className="p-6">
+    <div className="p-2">
       <Modal show={showModal} onHide={() => setShowModal(false)} centered dialogClassName="w-100">
         <Modal.Header closeButton>
           <Modal.Title>{selectedEvent?.Title}</Modal.Title>
