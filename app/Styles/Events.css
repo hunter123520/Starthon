@@ -6,3 +6,119 @@
   .modal-dialog{
     max-width: 90vw !important;
   }
+
+  .review-list {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .review-card {
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 14px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-left: 5px solid transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .review-name {
+    font-weight: 600;
+    color: #222;
+  }
+  
+  .review-label {
+    font-size: 0.85rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: capitalize;
+  }
+  
+  /* Label Colors */
+  .positive .review-label {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  .negative .review-label {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  .suggestion .review-label {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  .questions .review-label {
+    background-color: #cce5ff;
+    color: #004085;
+  }
+  .confusion .review-label {
+    background-color: #f0d9ff;
+    color: #5a005a;
+  }
+  .support .review-label {
+    background-color: #e2e3e5;
+    color: #383d41;
+  }
+  .discussion .review-label {
+    background-color: #e6ffe6;
+    color: #006600;
+  }
+  .comparison .review-label {
+    background-color: #ffe5b4;
+    color: #994d00;
+  }
+  .related .review-label {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+  
+  .review-text {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+  
+
+  .review-analysis {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  
+  .review-analysis h2 {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+  }
+  
+  .class-counts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .count-item {
+    background: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .chart-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  

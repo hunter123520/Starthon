@@ -7,13 +7,15 @@ import { Button } from '@mui/material';
 import { Modal } from 'react-bootstrap';
 import "../Styles/Events.css";
 import APIService from '../Apis/APIService'
+import ReviewAnalytics from "./Analytic"
+import { CircularProgress } from '@mui/material';
 export default function EventsPage() {
   const [events, setEvents] = useState([]);
   const [filteredEvents, setFilteredEvents] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [categories, setCategories] = useState([]);
   const [reviews,setReviews] = useState([]);
-
+  const [waiting, setWaiting] = useState(false);
   useEffect(() => {
     fetch('/data/data_new.json')
       .then((res) => res.json())
@@ -56,12 +58,24 @@ const [showModal, setShowModal] = useState(false);
 const handleReviewClick = (event) => {
   setSelectedEvent(event);
   setShowModal(true);
-  APIService.sentiment()
-            .then((response) => {
-              setReviews(response["output"]);
+  // APIService.sentiment()
+  //           .then((response) => {
+  //             setReviews(response["output"]);
               
-            })
-            .catch((error) => console.log("error", error));
+  //           })
+  //           .catch((error) => console.log("error", error));
+  setWaiting(true);
+  APIService.sentiment()
+  .then((response) => {
+    // assuming response["output"] is an array
+    if (Array.isArray(response["output"])) {
+      setReviews(response["output"]);
+      setWaiting(false);
+    } else {
+      console.error("Output is not iterable", response["output"]);
+    }
+  })
+  .catch((error) => console.log("error", error));
 };
 
 const mockFeedback = [
@@ -72,6 +86,31 @@ const mockFeedback = [
   "Could use more practical examples."
 ];
 
+const getClassColor = (label) => {
+  switch (label) {
+    case "Positive":
+      return "positive";
+    case "Negative":
+      return "negative";
+    case "Improvement Suggestions":
+      return "suggestion";
+    case "Questions":
+      return "questions";
+    case "Confusion":
+      return "confusion";
+    case "Support Request":
+      return "support";
+    case "Discussion":
+      return "discussion";
+    case "Course Comparison":
+      return "comparison";
+    case "Related Course Suggestions":
+      return "related";
+    default:
+      return "neutral";
+  }
+};
+
 
   return (
     <div className="p-6">
@@ -79,16 +118,42 @@ const mockFeedback = [
         <Modal.Header closeButton>
           <Modal.Title>{selectedEvent?.Title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body style={{width:"90%"}}>
+        <Modal.Body style={{width:"100%"}}>
           <p><strong>Date:</strong> {selectedEvent?.Date}</p>
           <p><strong>Description:</strong> {selectedEvent?.Content}</p>
           <hr />
           <h6>User Feedback:</h6>
-          <ul>
-            {reviews.map((fb, idx) => (
-              <li key={idx}>{fb}</li>
-            ))}
-          </ul>
+          {/* <ul>
+          {reviews.map((item, index) => (
+          <div key={index}>
+            <p><strong>{item["Student Name"]}</strong>: {item["Feedback"]} - {item["predictions"]}</p>
+          </div>
+        ))}
+          </ul> */}
+           {waiting ? (
+            <div className="d-flex flex-column justify-content-center align-items-center p-4" style={{ gap: "15px" }}>
+              <CircularProgress />
+            </div>
+          ) : (
+           <>
+            <ReviewAnalytics reviews={reviews} />
+        <div className="review-list">
+  {reviews.map((item, index) => (
+    <div
+      key={index}
+      className={`review-card ${getClassColor(item["predictions"])}`}
+    >
+      <div className="review-header">
+        <span className="review-name">{item["Student Name"]}</span>
+        <span className="review-label">{item["predictions"]}</span>
+      </div>
+      <p className="review-text">{item["Feedback"]}</p>
+    </div>
+  ))}
+</div>
+           </>
+          )}
+         
         </Modal.Body>
       </Modal>
       <div className="mb-6 flex flex-wrap gap-2 justify-center">

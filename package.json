@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "flask-dev": "pip3 install -r requirements.txt && flask --app api/index run --debug",
+    "flask-dev": "pip3 install -r requirements.txt && flask --app api/index run -p 5328 --debug",
     "next-dev": "next dev",
     "dev": "concurrently \"npm run next-dev\" \"npm run flask-dev\"",
     "build": "next build",
@@ -19,6 +19,7 @@
     "@netlify/plugin-nextjs": "^5.10.1",
     "@tailwindcss/typography": "^0.5.16",
     "bootstrap": "^5.3.0",
+    "chart.js": "^4.4.8",
     "concurrently": "^8.0.1",
     "embla-carousel": "^8.5.2",
     "embla-carousel-react": "^8.1.0",

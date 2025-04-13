@@ -43,10 +43,10 @@ def upload_reviews(df, column_name, url="http://localhost:8000/classify"):
 
     # Send the POST request with the reviews as JSON
     response = req.post(url, json=payload)
-
+    print("HHHHHHH", response)
     # Check if the request was successful
     if response.status_code == 200:
-        return response.json()  # Return the JSON response from FastAPI
+        return response.json()["predictions"]  # Return the JSON response from FastAPI
     else:
         print(f"Error: {response.status_code}")
         return None
@@ -57,12 +57,12 @@ class Sentiment(Resource):
         url = "https://missingbreath-sentimentanalysis.hf.space/classify"
 
         try:
-            df["predictions"] = upload_reviews(df, "Feedback")
-            print( df["predictions"] )
+            df["predictions"] = upload_reviews(df, "Feedback",url=url)
+            # print( df["predictions"] )
         except:
             print("error")
             prediction = randrange(12)
-        return {"output": df["predictions"] }
+        return {"output": df.to_dict(orient="records")}
 
     def post(self):
         print(self)
@@ -76,7 +76,7 @@ class Sentiment(Resource):
         except:
             print("error")
             prediction = randrange(12)
-        return {"output":prediction}
+        return {"output":"h"}
 
 load_dotenv()  # Load environment variables from .env file
 API = os.getenv("GOOGLE_API")

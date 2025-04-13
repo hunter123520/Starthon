@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>CampGuide</title>
+      <title>Sellami Mohammed Abdelhadi</title>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

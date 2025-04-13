@@ -14,7 +14,7 @@ export default class APIService {
     //     .catch(error => console.log(error))
     // }
     static sentiment() {
-        return fetch(`https://campguide-tawny.vercel.app/api/sentiment`, {
+        return fetch(`http://127.0.0.1:5328/api/sentiment`, {
             method: 'GET'
         })
         .then(response => response.json())
@@ -22,7 +22,7 @@ export default class APIService {
     }
     
     static chat(body) {
-        return fetch(`https://campguide-tawny.vercel.app/api/chat`, {
+        return fetch(`http://127.0.0.1:5328/api/chat`, {
             'method': 'POST',
             headers: {
                 'Content-Type': 'application/json'
