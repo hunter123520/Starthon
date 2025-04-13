@@ -2,6 +2,7 @@ export default class APIService {
     // http://127.0.0.1:5328
     // https://next-template-pi-kohl.vercel.app/api/recycle
     // https://campguide-tawny.vercel.app/
+    // V
     // Insert an article
     // static recycle(body) {
     //     return fetch(`http://127.0.0.1:5328/api/sentiment`, {
