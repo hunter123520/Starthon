@@ -13,6 +13,7 @@ from dotenv import load_dotenv
 # import google.generativeai as genai
 
 df = pd.read_json('api/data/reviews.json')
+df = df.sample(frac=0.2)
 with open('api/data/data_new.json', 'r', encoding='utf-8')  as file:
     reviews_text = file.read()
 
@@ -55,7 +56,7 @@ class Sentiment(Resource):
     def get(self):
         print(self)
         url = "https://missingbreath-sentimentanalysis.hf.space/classify"
-
+        
         try:
             df["predictions"] = upload_reviews(df, "Feedback",url=url)
             # print( df["predictions"] )
